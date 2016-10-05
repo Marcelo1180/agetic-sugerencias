@@ -1,0 +1,27 @@
+.contenedor, .form-contenedor{
+  color: #FFF;
+}
+.contenedor{
+  margin-top: 20px;
+  background-color: #1c0316;
+  padding: 20px 25px;
+  border: 1px solid #3f0825;
+}
+.contenedor-header{
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 1px solid #98486f;
+}bcvbc
+.contenedor-header-break{
+  padding-top: 4px;
+  border-bottom: 4px solid #590131;
+  height: 10px;
+}
+.contenedor h4{
+  padding-top: 20px;
+}
+.contenedor p{
+  font-size: 12px;
+  padding: 10px 0;
+}
+fjfskldjflkasjdf
