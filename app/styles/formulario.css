@@ -11,10 +11,11 @@
   margin-top: 50px;
   text-align: center;
   border-bottom: 1px solid #98486f;
-}bcvbc
+}
 .contenedor-header-break{
   padding-top: 4px;
-  border-bottom: 4px solid #590131;
+  /*border-bottom: 4px solid #590131;*/
+  border-bottom: 3px solid #94486f;  
   height: 10px;
 }
 .contenedor h4{
@@ -24,4 +25,3 @@
   font-size: 12px;
   padding: 10px 0;
 }
-fjfskldjflkasjdf
