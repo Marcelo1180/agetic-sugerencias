@@ -34,6 +34,11 @@ angular
         controller: 'PruebaCtrl',
         controllerAs: 'prueba'
       })
+      .when('/enviado', {
+        templateUrl: 'views/enviado.html',
+        controller: 'EnviadoCtrl',
+        controllerAs: 'enviado'
+      })
       .otherwise({
         redirectTo: '/'
       });

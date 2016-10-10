@@ -8,7 +8,7 @@
  * Controller of the sugerenciasApp
  */
 angular.module('sugerenciasApp')
-  .controller('MainCtrl', function ($scope, sugerencias) {
+  .controller('MainCtrl', function ($scope, $location, sugerencias) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -16,7 +16,8 @@ angular.module('sugerenciasApp')
     ];
     $scope.inscribir = function () {
       sugerencias.addSugerencia({
-        name:'Buenos Aires', country:'Argentina'
+        sugerencia: $scope.sugerencia
       });
+      $location.path('/enviado/');
     };
   });

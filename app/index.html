@@ -50,7 +50,14 @@
     </div>     -->
 
     <div class="container">
-    <div ng-view=""></div>
+      <div class="contenedor-header">
+        <img src="images/logo_agetic.png" height="75px"/>
+      </div>
+      <div class="contenedor-header-break"></div>
+        <div class="contenedor">
+          <div ng-view=""></div>
+        </div>
+      </div>
     </div>
 
     <!-- <div class="footer">
@@ -93,6 +100,7 @@
         <!-- <script src="scripts/services/nuevo.js"></script> -->
         <script src="scripts/services/sugerencias.js"></script>
         <script src="scripts/services/constantes.js"></script>
+        <script src="scripts/controllers/enviado.js"></script>
         <!-- endbuild -->
 </body>
 </html>

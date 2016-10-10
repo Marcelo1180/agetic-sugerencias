@@ -1,23 +1,16 @@
 <!-- <div class="form-contenedor"> -->
-<div class="contenedor-header">
-  <img src="images/logo_agetic.png" height="75px"/>
-</div>
-<div class="contenedor-header-break"></div>
-<div class="contenedor">
   <form role="form">
-    <h3>¿Qu&eacute; clase de comentario quiere enviar?</h3>
+    <h3>¿Qu&eacute; clase de sugerencia desea enviar?</h3>
     <div class="form-group">
       <label for="sugerencia">Por favor sea claro y concreto (de 50 a 1500 caracteres)</label>
-      <textarea class="form-control" placeholder="Ingrese su sugerencia haca" name="sugerencia" rows="8" style="width:100%"></textarea>
+      <textarea class="form-control" placeholder="Ingrese su sugerencia haca" name="sugerencia" rows="8" style="width:100%" ng-model="sugerencia"></textarea>
     </div>
     <h4>Bienvenida(o)!!!!</h4>
     <p>
       Gracias por ingresar al “buzón de sugerencias”. Este es tu espacio, a través del cual podrás comentarnos sobre tu permanencia y tu relación laboral en la AGETIC. Contamos con tus sugerencias para que cada día estemos mejor y sobre todo con los cambios que tú crees que debemos realizar. El tratamiento al contenido de tus comentarios y sugerencias será confidencial. Gracias por confiar en nosotros.
     </p>
-    <button ng-click="inscribir()">Inscribir</button>
     <div style="text-align:center">
-      <button type="submit" class="btn btn-default">Enviar</button>
+      <button type="submit" class="btn btn-default" ng-click="inscribir()" >Enviar</button>
     </div>
   </form>
-</div>
 <!-- </div> -->
